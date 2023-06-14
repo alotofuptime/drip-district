@@ -4,3 +4,7 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
+
+body {
+  padding: 0 5em 0 5em;
+}
