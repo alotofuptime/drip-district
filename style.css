@@ -8,3 +8,19 @@ html {
 body {
   padding: 0 5em 0 5em;
 }
+
+header {
+  display: flex;
+  flex-flow: row wrap;
+  place-content: center space-between;
+  align-items: center;
+  margin-bottom: 7rem;
+}
+
+.navbar .nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 1em;
+}
