@@ -24,3 +24,31 @@ header {
   justify-content: space-between;
   gap: 1em;
 }
+
+.intro {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex: 0 1 50%;
+}
+
+.intro div h1, p {
+  margin: 0;
+}
+
+.intro.sign-up {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+}
+
+.intro-img img {
+  width: 300px;
+  height: auto;
+}
+
+button.sign-up {
+  align-self: flex-start;
+
+}
