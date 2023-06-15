@@ -11,10 +11,13 @@ body {
 
 header {
   display: flex;
-  flex-flow: row wrap;
-  place-content: center space-between;
-  align-items: center;
-  margin-bottom: 7rem;
+  flex-flow: column nowrap;
+}
+
+div.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5rem;
 }
 
 .navbar .nav-links {
@@ -22,7 +25,7 @@ header {
   padding: 0;
   display: flex;
   justify-content: space-between;
-  gap: 1em;
+  gap: .5em;
 }
 
 .intro {
