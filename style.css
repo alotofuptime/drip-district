@@ -67,7 +67,6 @@ h1 {
 .intro.sign-up {
   display: flex;
   flex-direction: column;
-  align-self: stretch;
 }
 
 .intro-img img {
