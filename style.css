@@ -75,6 +75,16 @@ h1 {
 }
 
 button.sign-up {
-  align-self: flex-start;
+  background-color: #3882F6;
+  color: #F9FAF8;
+  padding: 8px 30px;
+  border-radius: .5em;
+  border-style: none;
+  font-size: 18px;
+  font-weight: 400;
+}
 
+button.sign-up:hover {
+  cursor: pointer;
+  background-color: rgba(40, 96, 226, 0.661);
 }
