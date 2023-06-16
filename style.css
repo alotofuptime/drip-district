@@ -32,6 +32,18 @@ div.navbar {
   gap: .5em;
 }
 
+.navbar .nav-links a,
+.intro p {
+  text-decoration: none;
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.navbar h3 {
+  font-size: 24px;
+  color: #E5E7EB;
+}
+
 .intro {
   display: flex;
   flex-flow: row nowrap;
@@ -40,8 +52,16 @@ div.navbar {
   flex: 0 1 50%;
 }
 
-.intro div h1, p {
-  margin: 0;
+.intro p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+  margin-bottom: .25em;
+  margin-top: 0;
 }
 
 .intro.sign-up {
