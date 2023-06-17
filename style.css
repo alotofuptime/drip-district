@@ -92,3 +92,16 @@ button.sign-up:hover {
   cursor: pointer;
   background-color: rgba(40, 96, 226, 0.661);
 }
+
+footer {
+  padding: 25px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1F2937;
+}
+
+footer p {
+  color: #E5E7EB;
+  font-size: 18px;
+}
