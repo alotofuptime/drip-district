@@ -93,6 +93,35 @@ button.sign-up:hover {
   background-color: rgba(40, 96, 226, 0.661);
 }
 
+main {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+main > h2 {
+  font-size: 36px;
+  color: 1F2937;
+  font-weight: 800;
+}
+
+.more-info {
+  padding: 0 20em 5em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-card {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  width: 20%;
+}
+.info-card img {
+  width: 100%;
+  height: auto;
+}
+
 footer {
   padding: 25px 0;
   display: flex;
